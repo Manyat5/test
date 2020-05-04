@@ -1,0 +1,76 @@
+E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\bin\java.exe "-javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=53784:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\charsets.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\access-bridge-64.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\cldrdata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\dnsns.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\jaccess.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\localedata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\nashorn.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunec.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunjce_provider.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunmscapi.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunpkcs11.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\zipfs.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jce.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jsse.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\management-agent.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\resources.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\rt.jar;E:\WWY\workplace\test\jmh-test\target\classes;E:\WWY\repository\org\openjdk\jmh\jmh-generator-annprocess\1.23\jmh-generator-annprocess-1.23.jar;E:\WWY\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;E:\WWY\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;E:\WWY\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar sample.JMHSample_03_States
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=53784:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_03_States.measureShared
+
+# Run progress: 0.00% complete, ETA 00:03:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 44869213.954 ops/s
+# Warmup Iteration   2: 43954775.859 ops/s
+# Warmup Iteration   3: 44225390.298 ops/s
+# Warmup Iteration   4: 44375029.918 ops/s
+# Warmup Iteration   5: 45470637.152 ops/s
+Iteration   1: 43143455.442 ops/s
+Iteration   2: 42978089.751 ops/s
+Iteration   3: 42960788.286 ops/s
+Iteration   4: 44098548.256 ops/s
+Iteration   5: 43700991.310 ops/s
+
+
+Result "sample.JMHSample_03_States.measureShared":
+  43376374.609 ±(99.9%) 1937322.580 ops/s [Average]
+  (min, avg, max) = (42960788.286, 43376374.609, 44098548.256), stdev = 503116.522
+  CI (99.9%): [41439052.029, 45313697.189] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=53784:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_03_States.measureUnshared
+
+# Run progress: 50.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 644840761.980 ops/s
+# Warmup Iteration   2: 632939045.941 ops/s
+# Warmup Iteration   3: 656665477.605 ops/s
+# Warmup Iteration   4: 656222925.147 ops/s
+# Warmup Iteration   5: 656916167.785 ops/s
+Iteration   1: 649249122.741 ops/s
+Iteration   2: 635859614.000 ops/s
+Iteration   3: 636188345.650 ops/s
+Iteration   4: 611045035.020 ops/s
+Iteration   5: 629431843.497 ops/s
+
+
+Result "sample.JMHSample_03_States.measureUnshared":
+  632354792.182 ±(99.9%) 53600344.271 ops/s [Average]
+  (min, avg, max) = (611045035.020, 632354792.182, 649249122.741), stdev = 13919839.192
+  CI (99.9%): [578754447.910, 685955136.453] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:03:21
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                             Mode  Cnt          Score          Error  Units
+JMHSample_03_States.measureShared    thrpt    5   43376374.609 ±  1937322.580  ops/s
+JMHSample_03_States.measureUnshared  thrpt    5  632354792.182 ± 53600344.271  ops/s
+
+Process finished with exit code 0

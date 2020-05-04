@@ -1,0 +1,867 @@
+E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\bin\java.exe "-javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=58094:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\charsets.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\access-bridge-64.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\cldrdata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\dnsns.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\jaccess.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\localedata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\nashorn.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunec.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunjce_provider.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunmscapi.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunpkcs11.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\zipfs.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jce.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jsse.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\management-agent.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\resources.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\rt.jar;E:\WWY\workplace\test\jmh-test\target\classes;E:\WWY\repository\org\openjdk\jmh\jmh-generator-annprocess\1.23\jmh-generator-annprocess-1.23.jar;E:\WWY\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;E:\WWY\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;E:\WWY\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar sample.JMHSample_22_FalseSharing
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=58094:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 12 threads (6 groups; 1x "reader", 1x "writer" in each group), will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_22_FalseSharing.baseline
+
+# Run progress: 0.00% complete, ETA 00:04:10
+# Fork: 1 of 5
+# Warmup Iteration   1: 2218.677 ops/us
+# Warmup Iteration   2: 4100.985 ops/us
+# Warmup Iteration   3: 1973.060 ops/us
+# Warmup Iteration   4: 4171.388 ops/us
+# Warmup Iteration   5: 2825.082 ops/us
+Iteration   1: 2835.268 ops/us
+                 reader: 395.054 ops/us
+                 writer: 2440.214 ops/us
+
+Iteration   2: 4180.279 ops/us
+                 reader: 613.141 ops/us
+                 writer: 3567.138 ops/us
+
+Iteration   3: 2041.763 ops/us
+                 reader: 285.479 ops/us
+                 writer: 1756.284 ops/us
+
+Iteration   4: 4754.600 ops/us
+                 reader: 662.393 ops/us
+                 writer: 4092.207 ops/us
+
+Iteration   5: 1826.288 ops/us
+                 reader: 286.489 ops/us
+                 writer: 1539.799 ops/us
+
+
+# Run progress: 4.00% complete, ETA 00:04:32
+# Fork: 2 of 5
+# Warmup Iteration   1: 3724.616 ops/us
+# Warmup Iteration   2: 3482.389 ops/us
+# Warmup Iteration   3: 1969.099 ops/us
+# Warmup Iteration   4: 4472.843 ops/us
+# Warmup Iteration   5: 2758.420 ops/us
+Iteration   1: 3004.611 ops/us
+                 reader: 519.156 ops/us
+                 writer: 2485.455 ops/us
+
+Iteration   2: 3909.528 ops/us
+                 reader: 667.067 ops/us
+                 writer: 3242.460 ops/us
+
+Iteration   3: 2367.934 ops/us
+                 reader: 441.100 ops/us
+                 writer: 1926.834 ops/us
+
+Iteration   4: 2849.362 ops/us
+                 reader: 497.084 ops/us
+                 writer: 2352.278 ops/us
+
+Iteration   5: 4070.361 ops/us
+                 reader: 690.426 ops/us
+                 writer: 3379.935 ops/us
+
+
+# Run progress: 8.00% complete, ETA 00:04:21
+# Fork: 3 of 5
+# Warmup Iteration   1: 3516.277 ops/us
+# Warmup Iteration   2: 3020.604 ops/us
+# Warmup Iteration   3: 2095.930 ops/us
+# Warmup Iteration   4: 4012.129 ops/us
+# Warmup Iteration   5: 2349.097 ops/us
+Iteration   1: 2804.569 ops/us
+                 reader: 385.956 ops/us
+                 writer: 2418.613 ops/us
+
+Iteration   2: 3735.584 ops/us
+                 reader: 539.127 ops/us
+                 writer: 3196.457 ops/us
+
+Iteration   3: 2534.589 ops/us
+                 reader: 356.699 ops/us
+                 writer: 2177.890 ops/us
+
+Iteration   4: 3173.581 ops/us
+                 reader: 431.603 ops/us
+                 writer: 2741.978 ops/us
+
+Iteration   5: 3906.076 ops/us
+                 reader: 519.543 ops/us
+                 writer: 3386.533 ops/us
+
+
+# Run progress: 12.00% complete, ETA 00:04:11
+# Fork: 4 of 5
+# Warmup Iteration   1: 3353.580 ops/us
+# Warmup Iteration   2: 3272.418 ops/us
+# Warmup Iteration   3: 2147.555 ops/us
+# Warmup Iteration   4: 4157.282 ops/us
+# Warmup Iteration   5: 2584.003 ops/us
+Iteration   1: 2404.734 ops/us
+                 reader: 368.245 ops/us
+                 writer: 2036.489 ops/us
+
+Iteration   2: 4033.301 ops/us
+                 reader: 613.335 ops/us
+                 writer: 3419.966 ops/us
+
+Iteration   3: 2544.435 ops/us
+                 reader: 385.327 ops/us
+                 writer: 2159.109 ops/us
+
+Iteration   4: 2961.058 ops/us
+                 reader: 448.715 ops/us
+                 writer: 2512.343 ops/us
+
+Iteration   5: 3607.199 ops/us
+                 reader: 544.002 ops/us
+                 writer: 3063.197 ops/us
+
+
+# Run progress: 16.00% complete, ETA 00:03:59
+# Fork: 5 of 5
+# Warmup Iteration   1: 3959.992 ops/us
+# Warmup Iteration   2: 3086.893 ops/us
+# Warmup Iteration   3: 2013.975 ops/us
+# Warmup Iteration   4: 4413.851 ops/us
+# Warmup Iteration   5: 2449.586 ops/us
+Iteration   1: 3494.015 ops/us
+                 reader: 564.314 ops/us
+                 writer: 2929.701 ops/us
+
+Iteration   2: 3592.906 ops/us
+                 reader: 617.448 ops/us
+                 writer: 2975.457 ops/us
+
+Iteration   3: 1997.855 ops/us
+                 reader: 338.266 ops/us
+                 writer: 1659.589 ops/us
+
+Iteration   4: 3326.368 ops/us
+                 reader: 527.527 ops/us
+                 writer: 2798.841 ops/us
+
+Iteration   5: 3642.611 ops/us
+                 reader: 606.910 ops/us
+                 writer: 3035.701 ops/us
+
+
+
+Result "sample.JMHSample_22_FalseSharing.baseline":
+  3183.955 ±(99.9%) 574.361 ops/us [Average]
+  (min, avg, max) = (1826.288, 3183.955, 4754.600), stdev = 766.755
+  CI (99.9%): [2609.594, 3758.316] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.baseline:reader":
+  492.176 ±(99.9%) 90.796 ops/us [Average]
+  (min, avg, max) = (285.479, 492.176, 690.426), stdev = 121.211
+  CI (99.9%): [401.380, 582.973] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.baseline:writer":
+  2691.779 ±(99.9%) 491.612 ops/us [Average]
+  (min, avg, max) = (1539.799, 2691.779, 4092.207), stdev = 656.288
+  CI (99.9%): [2200.167, 3183.390] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=58094:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 12 threads (6 groups; 1x "reader", 1x "writer" in each group), will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_22_FalseSharing.contended
+
+# Run progress: 20.00% complete, ETA 00:03:47
+# Fork: 1 of 5
+# Warmup Iteration   1: 3086.038 ops/us
+# Warmup Iteration   2: 3723.840 ops/us
+# Warmup Iteration   3: 1962.980 ops/us
+# Warmup Iteration   4: 3897.216 ops/us
+# Warmup Iteration   5: 2216.246 ops/us
+Iteration   1: 2649.794 ops/us
+                 reader: 338.447 ops/us
+                 writer: 2311.348 ops/us
+
+Iteration   2: 3664.718 ops/us
+                 reader: 427.772 ops/us
+                 writer: 3236.945 ops/us
+
+Iteration   3: 1646.927 ops/us
+                 reader: 190.573 ops/us
+                 writer: 1456.354 ops/us
+
+Iteration   4: 3771.291 ops/us
+                 reader: 426.883 ops/us
+                 writer: 3344.408 ops/us
+
+Iteration   5: 3063.561 ops/us
+                 reader: 356.017 ops/us
+                 writer: 2707.544 ops/us
+
+
+# Run progress: 24.00% complete, ETA 00:03:36
+# Fork: 2 of 5
+# Warmup Iteration   1: 3738.404 ops/us
+# Warmup Iteration   2: 3169.226 ops/us
+# Warmup Iteration   3: 2077.066 ops/us
+# Warmup Iteration   4: 3778.190 ops/us
+# Warmup Iteration   5: 2640.674 ops/us
+Iteration   1: 2037.205 ops/us
+                 reader: 256.860 ops/us
+                 writer: 1780.345 ops/us
+
+Iteration   2: 4051.486 ops/us
+                 reader: 484.675 ops/us
+                 writer: 3566.811 ops/us
+
+Iteration   3: 2757.116 ops/us
+                 reader: 347.485 ops/us
+                 writer: 2409.631 ops/us
+
+Iteration   4: 2049.079 ops/us
+                 reader: 242.599 ops/us
+                 writer: 1806.480 ops/us
+
+Iteration   5: 3280.851 ops/us
+                 reader: 393.022 ops/us
+                 writer: 2887.830 ops/us
+
+
+# Run progress: 28.00% complete, ETA 00:03:24
+# Fork: 3 of 5
+# Warmup Iteration   1: 4340.758 ops/us
+# Warmup Iteration   2: 2538.883 ops/us
+# Warmup Iteration   3: 2237.303 ops/us
+# Warmup Iteration   4: 3766.382 ops/us
+# Warmup Iteration   5: 3035.916 ops/us
+Iteration   1: 2804.118 ops/us
+                 reader: 427.184 ops/us
+                 writer: 2376.934 ops/us
+
+Iteration   2: 4151.453 ops/us
+                 reader: 567.711 ops/us
+                 writer: 3583.741 ops/us
+
+Iteration   3: 2050.488 ops/us
+                 reader: 312.423 ops/us
+                 writer: 1738.065 ops/us
+
+Iteration   4: 3540.065 ops/us
+                 reader: 492.034 ops/us
+                 writer: 3048.031 ops/us
+
+Iteration   5: 3616.515 ops/us
+                 reader: 502.010 ops/us
+                 writer: 3114.505 ops/us
+
+
+# Run progress: 32.00% complete, ETA 00:03:13
+# Fork: 4 of 5
+# Warmup Iteration   1: 3351.635 ops/us
+# Warmup Iteration   2: 3136.677 ops/us
+# Warmup Iteration   3: 2054.763 ops/us
+# Warmup Iteration   4: 3220.558 ops/us
+# Warmup Iteration   5: 3747.221 ops/us
+Iteration   1: 2189.410 ops/us
+                 reader: 308.364 ops/us
+                 writer: 1881.047 ops/us
+
+Iteration   2: 2475.101 ops/us
+                 reader: 345.625 ops/us
+                 writer: 2129.475 ops/us
+
+Iteration   3: 3767.041 ops/us
+                 reader: 491.810 ops/us
+                 writer: 3275.231 ops/us
+
+Iteration   4: 2653.891 ops/us
+                 reader: 369.248 ops/us
+                 writer: 2284.643 ops/us
+
+Iteration   5: 1972.627 ops/us
+                 reader: 273.124 ops/us
+                 writer: 1699.503 ops/us
+
+
+# Run progress: 36.00% complete, ETA 00:03:01
+# Fork: 5 of 5
+# Warmup Iteration   1: 3514.243 ops/us
+# Warmup Iteration   2: 3144.806 ops/us
+# Warmup Iteration   3: 2010.026 ops/us
+# Warmup Iteration   4: 3419.403 ops/us
+# Warmup Iteration   5: 3202.661 ops/us
+Iteration   1: 2090.221 ops/us
+                 reader: 308.141 ops/us
+                 writer: 1782.079 ops/us
+
+Iteration   2: 2818.784 ops/us
+                 reader: 402.659 ops/us
+                 writer: 2416.125 ops/us
+
+Iteration   3: 3642.584 ops/us
+                 reader: 578.347 ops/us
+                 writer: 3064.237 ops/us
+
+Iteration   4: 2361.482 ops/us
+                 reader: 341.242 ops/us
+                 writer: 2020.241 ops/us
+
+Iteration   5: 3467.972 ops/us
+                 reader: 513.964 ops/us
+                 writer: 2954.008 ops/us
+
+
+
+Result "sample.JMHSample_22_FalseSharing.contended":
+  2902.951 ±(99.9%) 559.044 ops/us [Average]
+  (min, avg, max) = (1646.927, 2902.951, 4151.453), stdev = 746.308
+  CI (99.9%): [2343.907, 3461.995] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.contended:reader":
+  387.929 ±(99.9%) 76.698 ops/us [Average]
+  (min, avg, max) = (190.573, 387.929, 578.347), stdev = 102.389
+  CI (99.9%): [311.231, 464.627] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.contended:writer":
+  2515.022 ±(99.9%) 489.480 ops/us [Average]
+  (min, avg, max) = (1456.354, 2515.022, 3583.741), stdev = 653.441
+  CI (99.9%): [2025.543, 3004.502] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=58094:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 12 threads (6 groups; 1x "reader", 1x "writer" in each group), will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_22_FalseSharing.hierarchy
+
+# Run progress: 40.00% complete, ETA 00:02:50
+# Fork: 1 of 5
+# Warmup Iteration   1: 3708.688 ops/us
+# Warmup Iteration   2: 3959.038 ops/us
+# Warmup Iteration   3: 2267.740 ops/us
+# Warmup Iteration   4: 3053.114 ops/us
+# Warmup Iteration   5: 4347.083 ops/us
+Iteration   1: 1619.424 ops/us
+                 reader: 400.862 ops/us
+                 writer: 1218.562 ops/us
+
+Iteration   2: 3533.773 ops/us
+                 reader: 897.859 ops/us
+                 writer: 2635.914 ops/us
+
+Iteration   3: 3337.293 ops/us
+                 reader: 833.650 ops/us
+                 writer: 2503.643 ops/us
+
+Iteration   4: 1629.798 ops/us
+                 reader: 430.377 ops/us
+                 writer: 1199.421 ops/us
+
+Iteration   5: 2741.543 ops/us
+                 reader: 723.737 ops/us
+                 writer: 2017.807 ops/us
+
+
+# Run progress: 44.00% complete, ETA 00:02:38
+# Fork: 2 of 5
+# Warmup Iteration   1: 2886.540 ops/us
+# Warmup Iteration   2: 3889.671 ops/us
+# Warmup Iteration   3: 2302.174 ops/us
+# Warmup Iteration   4: 2780.646 ops/us
+# Warmup Iteration   5: 4001.631 ops/us
+Iteration   1: 2468.069 ops/us
+                 reader: 634.274 ops/us
+                 writer: 1833.795 ops/us
+
+Iteration   2: 2317.112 ops/us
+                 reader: 540.427 ops/us
+                 writer: 1776.684 ops/us
+
+Iteration   3: 3375.440 ops/us
+                 reader: 813.148 ops/us
+                 writer: 2562.292 ops/us
+
+Iteration   4: 3671.869 ops/us
+                 reader: 909.095 ops/us
+                 writer: 2762.773 ops/us
+
+Iteration   5: 2192.111 ops/us
+                 reader: 546.359 ops/us
+                 writer: 1645.752 ops/us
+
+
+# Run progress: 48.00% complete, ETA 00:02:27
+# Fork: 3 of 5
+# Warmup Iteration   1: 3441.959 ops/us
+# Warmup Iteration   2: 3999.063 ops/us
+# Warmup Iteration   3: 2527.406 ops/us
+# Warmup Iteration   4: 2753.154 ops/us
+# Warmup Iteration   5: 3987.875 ops/us
+Iteration   1: 3228.863 ops/us
+                 reader: 787.165 ops/us
+                 writer: 2441.698 ops/us
+
+Iteration   2: 1992.135 ops/us
+                 reader: 499.032 ops/us
+                 writer: 1493.103 ops/us
+
+Iteration   3: 4088.697 ops/us
+                 reader: 1002.188 ops/us
+                 writer: 3086.509 ops/us
+
+Iteration   4: 3358.219 ops/us
+                 reader: 837.214 ops/us
+                 writer: 2521.006 ops/us
+
+Iteration   5: 1887.396 ops/us
+                 reader: 449.315 ops/us
+                 writer: 1438.081 ops/us
+
+
+# Run progress: 52.00% complete, ETA 00:02:15
+# Fork: 4 of 5
+# Warmup Iteration   1: 3566.771 ops/us
+# Warmup Iteration   2: 4027.172 ops/us
+# Warmup Iteration   3: 2134.134 ops/us
+# Warmup Iteration   4: 2863.803 ops/us
+# Warmup Iteration   5: 4159.145 ops/us
+Iteration   1: 2459.565 ops/us
+                 reader: 605.000 ops/us
+                 writer: 1854.565 ops/us
+
+Iteration   2: 2567.115 ops/us
+                 reader: 658.995 ops/us
+                 writer: 1908.119 ops/us
+
+Iteration   3: 3858.564 ops/us
+                 reader: 969.286 ops/us
+                 writer: 2889.279 ops/us
+
+Iteration   4: 2601.107 ops/us
+                 reader: 617.090 ops/us
+                 writer: 1984.017 ops/us
+
+Iteration   5: 2530.331 ops/us
+                 reader: 638.456 ops/us
+                 writer: 1891.875 ops/us
+
+
+# Run progress: 56.00% complete, ETA 00:02:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 3306.577 ops/us
+# Warmup Iteration   2: 3557.469 ops/us
+# Warmup Iteration   3: 2141.289 ops/us
+# Warmup Iteration   4: 3463.070 ops/us
+# Warmup Iteration   5: 3619.781 ops/us
+Iteration   1: 1991.179 ops/us
+                 reader: 509.579 ops/us
+                 writer: 1481.600 ops/us
+
+Iteration   2: 2661.310 ops/us
+                 reader: 762.600 ops/us
+                 writer: 1898.709 ops/us
+
+Iteration   3: 3760.772 ops/us
+                 reader: 938.866 ops/us
+                 writer: 2821.906 ops/us
+
+Iteration   4: 2097.923 ops/us
+                 reader: 529.165 ops/us
+                 writer: 1568.758 ops/us
+
+Iteration   5: 2965.181 ops/us
+                 reader: 767.675 ops/us
+                 writer: 2197.506 ops/us
+
+
+
+Result "sample.JMHSample_22_FalseSharing.hierarchy":
+  2757.392 ±(99.9%) 540.902 ops/us [Average]
+  (min, avg, max) = (1619.424, 2757.392, 4088.697), stdev = 722.089
+  CI (99.9%): [2216.490, 3298.293] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.hierarchy:reader":
+  692.056 ±(99.9%) 134.517 ops/us [Average]
+  (min, avg, max) = (400.862, 692.056, 1002.188), stdev = 179.577
+  CI (99.9%): [557.539, 826.574] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.hierarchy:writer":
+  2065.335 ±(99.9%) 408.455 ops/us [Average]
+  (min, avg, max) = (1199.421, 2065.335, 3086.509), stdev = 545.275
+  CI (99.9%): [1656.880, 2473.790] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=58094:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 12 threads (6 groups; 1x "reader", 1x "writer" in each group), will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_22_FalseSharing.padded
+
+# Run progress: 60.00% complete, ETA 00:01:53
+# Fork: 1 of 5
+# Warmup Iteration   1: 3317.705 ops/us
+# Warmup Iteration   2: 3281.146 ops/us
+# Warmup Iteration   3: 2150.698 ops/us
+# Warmup Iteration   4: 3379.729 ops/us
+# Warmup Iteration   5: 3575.330 ops/us
+Iteration   1: 1793.262 ops/us
+                 reader: 433.805 ops/us
+                 writer: 1359.457 ops/us
+
+Iteration   2: 3675.321 ops/us
+                 reader: 906.859 ops/us
+                 writer: 2768.463 ops/us
+
+Iteration   3: 3803.731 ops/us
+                 reader: 915.486 ops/us
+                 writer: 2888.245 ops/us
+
+Iteration   4: 1743.543 ops/us
+                 reader: 411.667 ops/us
+                 writer: 1331.876 ops/us
+
+Iteration   5: 3670.571 ops/us
+                 reader: 908.319 ops/us
+                 writer: 2762.252 ops/us
+
+
+# Run progress: 64.00% complete, ETA 00:01:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 3594.493 ops/us
+# Warmup Iteration   2: 2752.139 ops/us
+# Warmup Iteration   3: 1960.652 ops/us
+# Warmup Iteration   4: 3111.114 ops/us
+# Warmup Iteration   5: 2920.151 ops/us
+Iteration   1: 1501.676 ops/us
+                 reader: 377.594 ops/us
+                 writer: 1124.082 ops/us
+
+Iteration   2: 3938.870 ops/us
+                 reader: 1025.170 ops/us
+                 writer: 2913.700 ops/us
+
+Iteration   3: 3026.586 ops/us
+                 reader: 721.536 ops/us
+                 writer: 2305.050 ops/us
+
+Iteration   4: 2006.422 ops/us
+                 reader: 517.069 ops/us
+                 writer: 1489.354 ops/us
+
+Iteration   5: 4217.909 ops/us
+                 reader: 1047.872 ops/us
+                 writer: 3170.037 ops/us
+
+
+# Run progress: 68.00% complete, ETA 00:01:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 3716.389 ops/us
+# Warmup Iteration   2: 3767.428 ops/us
+# Warmup Iteration   3: 2069.107 ops/us
+# Warmup Iteration   4: 2699.627 ops/us
+# Warmup Iteration   5: 3830.208 ops/us
+Iteration   1: 2213.294 ops/us
+                 reader: 507.541 ops/us
+                 writer: 1705.754 ops/us
+
+Iteration   2: 2765.406 ops/us
+                 reader: 688.143 ops/us
+                 writer: 2077.263 ops/us
+
+Iteration   3: 4136.708 ops/us
+                 reader: 1020.110 ops/us
+                 writer: 3116.598 ops/us
+
+Iteration   4: 2311.917 ops/us
+                 reader: 553.619 ops/us
+                 writer: 1758.299 ops/us
+
+Iteration   5: 2706.018 ops/us
+                 reader: 655.896 ops/us
+                 writer: 2050.123 ops/us
+
+
+# Run progress: 72.00% complete, ETA 00:01:19
+# Fork: 4 of 5
+# Warmup Iteration   1: 3418.838 ops/us
+# Warmup Iteration   2: 3527.750 ops/us
+# Warmup Iteration   3: 1778.567 ops/us
+# Warmup Iteration   4: 3677.196 ops/us
+# Warmup Iteration   5: 3676.948 ops/us
+Iteration   1: 1757.253 ops/us
+                 reader: 430.930 ops/us
+                 writer: 1326.323 ops/us
+
+Iteration   2: 2765.717 ops/us
+                 reader: 689.826 ops/us
+                 writer: 2075.891 ops/us
+
+Iteration   3: 4091.019 ops/us
+                 reader: 1010.291 ops/us
+                 writer: 3080.728 ops/us
+
+Iteration   4: 2328.242 ops/us
+                 reader: 573.869 ops/us
+                 writer: 1754.373 ops/us
+
+Iteration   5: 2536.189 ops/us
+                 reader: 642.280 ops/us
+                 writer: 1893.909 ops/us
+
+
+# Run progress: 76.00% complete, ETA 00:01:07
+# Fork: 5 of 5
+# Warmup Iteration   1: 2667.568 ops/us
+# Warmup Iteration   2: 4071.321 ops/us
+# Warmup Iteration   3: 3021.048 ops/us
+# Warmup Iteration   4: 2218.372 ops/us
+# Warmup Iteration   5: 4037.570 ops/us
+Iteration   1: 3189.723 ops/us
+                 reader: 781.822 ops/us
+                 writer: 2407.901 ops/us
+
+Iteration   2: 2005.943 ops/us
+                 reader: 483.560 ops/us
+                 writer: 1522.383 ops/us
+
+Iteration   3: 4034.276 ops/us
+                 reader: 1016.212 ops/us
+                 writer: 3018.065 ops/us
+
+Iteration   4: 3001.821 ops/us
+                 reader: 765.044 ops/us
+                 writer: 2236.777 ops/us
+
+Iteration   5: 2169.265 ops/us
+                 reader: 521.928 ops/us
+                 writer: 1647.337 ops/us
+
+
+
+Result "sample.JMHSample_22_FalseSharing.padded":
+  2855.627 ±(99.9%) 656.409 ops/us [Average]
+  (min, avg, max) = (1501.676, 2855.627, 4217.909), stdev = 876.288
+  CI (99.9%): [2199.218, 3512.037] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.padded:reader":
+  704.258 ±(99.9%) 166.892 ops/us [Average]
+  (min, avg, max) = (377.594, 704.258, 1047.872), stdev = 222.795
+  CI (99.9%): [537.366, 871.149] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.padded:writer":
+  2151.370 ±(99.9%) 490.254 ops/us [Average]
+  (min, avg, max) = (1124.082, 2151.370, 3170.037), stdev = 654.475
+  CI (99.9%): [1661.115, 2641.624] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=58094:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 12 threads (6 groups; 1x "reader", 1x "writer" in each group), will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_22_FalseSharing.sparse
+
+# Run progress: 80.00% complete, ETA 00:00:56
+# Fork: 1 of 5
+# Warmup Iteration   1: 2672.058 ops/us
+# Warmup Iteration   2: 3309.459 ops/us
+# Warmup Iteration   3: 1892.602 ops/us
+# Warmup Iteration   4: 1923.212 ops/us
+# Warmup Iteration   5: 3536.243 ops/us
+Iteration   1: 2044.768 ops/us
+                 reader: 554.589 ops/us
+                 writer: 1490.179 ops/us
+
+Iteration   2: 2556.788 ops/us
+                 reader: 692.330 ops/us
+                 writer: 1864.458 ops/us
+
+Iteration   3: 3147.946 ops/us
+                 reader: 863.760 ops/us
+                 writer: 2284.186 ops/us
+
+Iteration   4: 2736.363 ops/us
+                 reader: 750.483 ops/us
+                 writer: 1985.880 ops/us
+
+Iteration   5: 2035.530 ops/us
+                 reader: 546.294 ops/us
+                 writer: 1489.236 ops/us
+
+
+# Run progress: 84.00% complete, ETA 00:00:45
+# Fork: 2 of 5
+# Warmup Iteration   1: 2522.067 ops/us
+# Warmup Iteration   2: 3498.720 ops/us
+# Warmup Iteration   3: 1775.557 ops/us
+# Warmup Iteration   4: 2967.249 ops/us
+# Warmup Iteration   5: 3524.054 ops/us
+Iteration   1: 2085.428 ops/us
+                 reader: 563.393 ops/us
+                 writer: 1522.035 ops/us
+
+Iteration   2: 2802.918 ops/us
+                 reader: 759.302 ops/us
+                 writer: 2043.617 ops/us
+
+Iteration   3: 3674.292 ops/us
+                 reader: 993.782 ops/us
+                 writer: 2680.510 ops/us
+
+Iteration   4: 1503.120 ops/us
+                 reader: 407.244 ops/us
+                 writer: 1095.875 ops/us
+
+Iteration   5: 3076.824 ops/us
+                 reader: 831.195 ops/us
+                 writer: 2245.629 ops/us
+
+
+# Run progress: 88.00% complete, ETA 00:00:33
+# Fork: 3 of 5
+# Warmup Iteration   1: 3068.460 ops/us
+# Warmup Iteration   2: 3350.977 ops/us
+# Warmup Iteration   3: 1542.467 ops/us
+# Warmup Iteration   4: 3126.292 ops/us
+# Warmup Iteration   5: 3159.938 ops/us
+Iteration   1: 1911.492 ops/us
+                 reader: 513.726 ops/us
+                 writer: 1397.766 ops/us
+
+Iteration   2: 3047.262 ops/us
+                 reader: 815.383 ops/us
+                 writer: 2231.879 ops/us
+
+Iteration   3: 3119.283 ops/us
+                 reader: 809.956 ops/us
+                 writer: 2309.327 ops/us
+
+Iteration   4: 2094.177 ops/us
+                 reader: 562.121 ops/us
+                 writer: 1532.056 ops/us
+
+Iteration   5: 2569.026 ops/us
+                 reader: 701.191 ops/us
+                 writer: 1867.836 ops/us
+
+
+# Run progress: 92.00% complete, ETA 00:00:22
+# Fork: 4 of 5
+# Warmup Iteration   1: 3255.271 ops/us
+# Warmup Iteration   2: 2628.724 ops/us
+# Warmup Iteration   3: 1844.027 ops/us
+# Warmup Iteration   4: 3613.019 ops/us
+# Warmup Iteration   5: 2289.931 ops/us
+Iteration   1: 2195.205 ops/us
+                 reader: 598.968 ops/us
+                 writer: 1596.238 ops/us
+
+Iteration   2: 3704.905 ops/us
+                 reader: 1000.936 ops/us
+                 writer: 2703.969 ops/us
+
+Iteration   3: 2554.513 ops/us
+                 reader: 678.707 ops/us
+                 writer: 1875.806 ops/us
+
+Iteration   4: 1986.426 ops/us
+                 reader: 568.613 ops/us
+                 writer: 1417.812 ops/us
+
+Iteration   5: 3635.756 ops/us
+                 reader: 970.535 ops/us
+                 writer: 2665.221 ops/us
+
+
+# Run progress: 96.00% complete, ETA 00:00:11
+# Fork: 5 of 5
+# Warmup Iteration   1: 3120.640 ops/us
+# Warmup Iteration   2: 2992.203 ops/us
+# Warmup Iteration   3: 1636.054 ops/us
+# Warmup Iteration   4: 3525.363 ops/us
+# Warmup Iteration   5: 2953.776 ops/us
+Iteration   1: 1989.115 ops/us
+                 reader: 548.696 ops/us
+                 writer: 1440.419 ops/us
+
+Iteration   2: 3429.851 ops/us
+                 reader: 921.266 ops/us
+                 writer: 2508.585 ops/us
+
+Iteration   3: 3027.759 ops/us
+                 reader: 818.486 ops/us
+                 writer: 2209.274 ops/us
+
+Iteration   4: 2085.994 ops/us
+                 reader: 567.093 ops/us
+                 writer: 1518.901 ops/us
+
+Iteration   5: 3060.037 ops/us
+                 reader: 836.233 ops/us
+                 writer: 2223.804 ops/us
+
+
+
+Result "sample.JMHSample_22_FalseSharing.sparse":
+  2642.991 ±(99.9%) 472.504 ops/us [Average]
+  (min, avg, max) = (1503.120, 2642.991, 3704.905), stdev = 630.780
+  CI (99.9%): [2170.487, 3115.495] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.sparse:reader":
+  714.971 ±(99.9%) 125.429 ops/us [Average]
+  (min, avg, max) = (407.244, 714.971, 1000.936), stdev = 167.444
+  CI (99.9%): [589.543, 840.400] (assumes normal distribution)
+
+Secondary result "sample.JMHSample_22_FalseSharing.sparse:writer":
+  1928.020 ±(99.9%) 347.435 ops/us [Average]
+  (min, avg, max) = (1095.875, 1928.020, 2703.969), stdev = 463.816
+  CI (99.9%): [1580.585, 2275.455] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:42
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt     Score     Error   Units
+JMHSample_22_FalseSharing.baseline          thrpt   25  3183.955 ± 574.361  ops/us
+JMHSample_22_FalseSharing.baseline:reader   thrpt   25   492.176 ±  90.796  ops/us
+JMHSample_22_FalseSharing.baseline:writer   thrpt   25  2691.779 ± 491.612  ops/us
+JMHSample_22_FalseSharing.contended         thrpt   25  2902.951 ± 559.044  ops/us
+JMHSample_22_FalseSharing.contended:reader  thrpt   25   387.929 ±  76.698  ops/us
+JMHSample_22_FalseSharing.contended:writer  thrpt   25  2515.022 ± 489.480  ops/us
+JMHSample_22_FalseSharing.hierarchy         thrpt   25  2757.392 ± 540.902  ops/us
+JMHSample_22_FalseSharing.hierarchy:reader  thrpt   25   692.056 ± 134.517  ops/us
+JMHSample_22_FalseSharing.hierarchy:writer  thrpt   25  2065.335 ± 408.455  ops/us
+JMHSample_22_FalseSharing.padded            thrpt   25  2855.627 ± 656.409  ops/us
+JMHSample_22_FalseSharing.padded:reader     thrpt   25   704.258 ± 166.892  ops/us
+JMHSample_22_FalseSharing.padded:writer     thrpt   25  2151.370 ± 490.254  ops/us
+JMHSample_22_FalseSharing.sparse            thrpt   25  2642.991 ± 472.504  ops/us
+JMHSample_22_FalseSharing.sparse:reader     thrpt   25   714.971 ± 125.429  ops/us
+JMHSample_22_FalseSharing.sparse:writer     thrpt   25  1928.020 ± 347.435  ops/us
+
+Process finished with exit code 0

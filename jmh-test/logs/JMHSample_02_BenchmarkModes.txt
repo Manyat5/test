@@ -1,0 +1,583 @@
+E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\bin\java.exe "-javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\charsets.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\access-bridge-64.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\cldrdata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\dnsns.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\jaccess.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\localedata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\nashorn.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunec.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunjce_provider.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunmscapi.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunpkcs11.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\zipfs.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jce.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jsse.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\management-agent.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\resources.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\rt.jar;E:\WWY\workplace\test\jmh-test\target\classes;E:\WWY\repository\org\openjdk\jmh\jmh-generator-annprocess\1.23\jmh-generator-annprocess-1.23.jar;E:\WWY\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;E:\WWY\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;E:\WWY\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar sample.JMHSample_02_BenchmarkModes
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureAll
+
+# Run progress: 0.00% complete, ETA 00:15:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/us
+Iteration   1: ≈ 10⁻⁵ ops/us
+Iteration   2: ≈ 10⁻⁵ ops/us
+Iteration   3: ≈ 10⁻⁵ ops/us
+Iteration   4: ≈ 10⁻⁵ ops/us
+Iteration   5: ≈ 10⁻⁵ ops/us
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureAll":
+  ≈ 10⁻⁵ ops/us
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureMultiple
+
+# Run progress: 11.11% complete, ETA 00:13:31
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/us
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/us
+Iteration   1: ≈ 10⁻⁵ ops/us
+Iteration   2: ≈ 10⁻⁵ ops/us
+Iteration   3: ≈ 10⁻⁵ ops/us
+Iteration   4: ≈ 10⁻⁵ ops/us
+Iteration   5: ≈ 10⁻⁵ ops/us
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureMultiple":
+  ≈ 10⁻⁵ ops/us
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureThroughput
+
+# Run progress: 22.22% complete, ETA 00:11:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 9.157 ops/s
+# Warmup Iteration   2: 9.153 ops/s
+# Warmup Iteration   3: 9.146 ops/s
+# Warmup Iteration   4: 9.146 ops/s
+# Warmup Iteration   5: 9.146 ops/s
+Iteration   1: 9.397 ops/s
+Iteration   2: 9.149 ops/s
+Iteration   3: 9.146 ops/s
+Iteration   4: 9.146 ops/s
+Iteration   5: 9.676 ops/s
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureThroughput":
+  9.303 ±(99.9%) 0.905 ops/s [Average]
+  (min, avg, max) = (9.146, 9.303, 9.676), stdev = 0.235
+  CI (99.9%): [8.397, 10.208] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureAll
+
+# Run progress: 33.33% complete, ETA 00:10:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 109270.660 us/op
+# Warmup Iteration   2: 109242.005 us/op
+# Warmup Iteration   3: 109338.987 us/op
+# Warmup Iteration   4: 109340.057 us/op
+# Warmup Iteration   5: 109347.187 us/op
+Iteration   1: 109337.963 us/op
+Iteration   2: 109225.218 us/op
+Iteration   3: 109366.812 us/op
+Iteration   4: 109124.135 us/op
+Iteration   5: 109378.955 us/op
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureAll":
+  109286.617 ±(99.9%) 420.780 us/op [Average]
+  (min, avg, max) = (109124.135, 109286.617, 109378.955), stdev = 109.275
+  CI (99.9%): [108865.837, 109707.397] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureAvgTime
+
+# Run progress: 44.44% complete, ETA 00:08:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 109200.547 us/op
+# Warmup Iteration   2: 109239.352 us/op
+# Warmup Iteration   3: 109334.071 us/op
+# Warmup Iteration   4: 109325.766 us/op
+# Warmup Iteration   5: 109313.203 us/op
+Iteration   1: 109274.137 us/op
+Iteration   2: 109304.629 us/op
+Iteration   3: 109338.188 us/op
+Iteration   4: 109338.617 us/op
+Iteration   5: 109334.825 us/op
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureAvgTime":
+  109318.079 ±(99.9%) 109.226 us/op [Average]
+  (min, avg, max) = (109274.137, 109318.079, 109338.617), stdev = 28.366
+  CI (99.9%): [109208.854, 109427.305] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureMultiple
+
+# Run progress: 55.56% complete, ETA 00:06:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 109317.863 us/op
+# Warmup Iteration   2: 109251.962 us/op
+# Warmup Iteration   3: 109337.229 us/op
+# Warmup Iteration   4: 109334.786 us/op
+# Warmup Iteration   5: 109336.000 us/op
+Iteration   1: 109337.476 us/op
+Iteration   2: 109308.385 us/op
+Iteration   3: 109337.164 us/op
+Iteration   4: 109335.993 us/op
+Iteration   5: 109336.238 us/op
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureMultiple":
+  109331.051 ±(99.9%) 48.849 us/op [Average]
+  (min, avg, max) = (109308.385, 109331.051, 109337.476), stdev = 12.686
+  CI (99.9%): [109282.202, 109379.901] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureAll
+
+# Run progress: 66.67% complete, ETA 00:05:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 109124.563 ±(99.9%) 572.035 us/op
+# Warmup Iteration   2: 109153.057 ±(99.9%) 445.099 us/op
+# Warmup Iteration   3: 109258.485 ±(99.9%) 102.702 us/op
+# Warmup Iteration   4: 109271.307 ±(99.9%) 74.554 us/op
+# Warmup Iteration   5: 109264.184 ±(99.9%) 100.272 us/op
+Iteration   1: 109252.786 ±(99.9%) 94.071 us/op
+                 measureAll·p0.00:   107347.968 us/op
+                 measureAll·p0.50:   109314.048 us/op
+                 measureAll·p0.90:   109536.870 us/op
+                 measureAll·p0.95:   109576.192 us/op
+                 measureAll·p0.99:   109707.264 us/op
+                 measureAll·p0.999:  109707.264 us/op
+                 measureAll·p0.9999: 109707.264 us/op
+                 measureAll·p1.00:   109707.264 us/op
+
+Iteration   2: 109229.991 ±(99.9%) 197.950 us/op
+                 measureAll·p0.00:   104071.168 us/op
+                 measureAll·p0.50:   109314.048 us/op
+                 measureAll·p0.90:   109314.048 us/op
+                 measureAll·p0.95:   109576.192 us/op
+                 measureAll·p0.99:   109707.264 us/op
+                 measureAll·p0.999:  109707.264 us/op
+                 measureAll·p0.9999: 109707.264 us/op
+                 measureAll·p1.00:   109707.264 us/op
+
+Iteration   3: 109268.458 ±(99.9%) 98.744 us/op
+                 measureAll·p0.00:   106823.680 us/op
+                 measureAll·p0.50:   109314.048 us/op
+                 measureAll·p0.90:   109314.048 us/op
+                 measureAll·p0.95:   109445.120 us/op
+                 measureAll·p0.99:   109707.264 us/op
+                 measureAll·p0.999:  109707.264 us/op
+                 measureAll·p0.9999: 109707.264 us/op
+                 measureAll·p1.00:   109707.264 us/op
+
+Iteration   4: 109267.033 ±(99.9%) 87.573 us/op
+                 measureAll·p0.00:   107216.896 us/op
+                 measureAll·p0.50:   109314.048 us/op
+                 measureAll·p0.90:   109445.120 us/op
+                 measureAll·p0.95:   109445.120 us/op
+                 measureAll·p0.99:   109707.264 us/op
+                 measureAll·p0.999:  109707.264 us/op
+                 measureAll·p0.9999: 109707.264 us/op
+                 measureAll·p1.00:   109707.264 us/op
+
+Iteration   5: 109262.759 ±(99.9%) 91.386 us/op
+                 measureAll·p0.00:   107085.824 us/op
+                 measureAll·p0.50:   109314.048 us/op
+                 measureAll·p0.90:   109445.120 us/op
+                 measureAll·p0.95:   109490.995 us/op
+                 measureAll·p0.99:   109576.192 us/op
+                 measureAll·p0.999:  109576.192 us/op
+                 measureAll·p0.9999: 109576.192 us/op
+                 measureAll·p1.00:   109576.192 us/op
+
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureAll":
+  N = 460
+  mean = 109256.205 ±(99.9%) 52.729 us/op
+
+  Histogram, us/op:
+    [104000.000, 104500.000) = 1 
+    [104500.000, 105000.000) = 0 
+    [105000.000, 105500.000) = 0 
+    [105500.000, 106000.000) = 0 
+    [106000.000, 106500.000) = 0 
+    [106500.000, 107000.000) = 1 
+    [107000.000, 107500.000) = 3 
+    [107500.000, 108000.000) = 0 
+    [108000.000, 108500.000) = 0 
+    [108500.000, 109000.000) = 15 
+    [109000.000, 109500.000) = 417 
+
+  Percentiles, us/op:
+      p(0.0000) = 104071.168 us/op
+     p(50.0000) = 109314.048 us/op
+     p(90.0000) = 109445.120 us/op
+     p(95.0000) = 109569.638 us/op
+     p(99.0000) = 109707.264 us/op
+     p(99.9000) = 109707.264 us/op
+     p(99.9900) = 109707.264 us/op
+     p(99.9990) = 109707.264 us/op
+     p(99.9999) = 109707.264 us/op
+    p(100.0000) = 109707.264 us/op
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureMultiple
+
+# Run progress: 77.78% complete, ETA 00:03:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 109238.539 ±(99.9%) 140.723 us/op
+# Warmup Iteration   2: 109141.660 ±(99.9%) 470.642 us/op
+# Warmup Iteration   3: 109245.663 ±(99.9%) 110.761 us/op
+# Warmup Iteration   4: 109275.581 ±(99.9%) 57.450 us/op
+# Warmup Iteration   5: 109255.635 ±(99.9%) 96.294 us/op
+Iteration   1: 109265.608 ±(99.9%) 70.162 us/op
+                 measureMultiple·p0.00:   107741.184 us/op
+                 measureMultiple·p0.50:   109314.048 us/op
+                 measureMultiple·p0.90:   109445.120 us/op
+                 measureMultiple·p0.95:   109445.120 us/op
+                 measureMultiple·p0.99:   109576.192 us/op
+                 measureMultiple·p0.999:  109576.192 us/op
+                 measureMultiple·p0.9999: 109576.192 us/op
+                 measureMultiple·p1.00:   109576.192 us/op
+
+Iteration   2: 109259.910 ±(99.9%) 87.728 us/op
+                 measureMultiple·p0.00:   107479.040 us/op
+                 measureMultiple·p0.50:   109314.048 us/op
+                 measureMultiple·p0.90:   109445.120 us/op
+                 measureMultiple·p0.95:   109576.192 us/op
+                 measureMultiple·p0.99:   109707.264 us/op
+                 measureMultiple·p0.999:  109707.264 us/op
+                 measureMultiple·p0.9999: 109707.264 us/op
+                 measureMultiple·p1.00:   109707.264 us/op
+
+Iteration   3: 109277.006 ±(99.9%) 52.615 us/op
+                 measureMultiple·p0.00:   108134.400 us/op
+                 measureMultiple·p0.50:   109314.048 us/op
+                 measureMultiple·p0.90:   109314.048 us/op
+                 measureMultiple·p0.95:   109445.120 us/op
+                 measureMultiple·p0.99:   109576.192 us/op
+                 measureMultiple·p0.999:  109576.192 us/op
+                 measureMultiple·p0.9999: 109576.192 us/op
+                 measureMultiple·p1.00:   109576.192 us/op
+
+Iteration   4: 109265.608 ±(99.9%) 79.067 us/op
+                 measureMultiple·p0.00:   107347.968 us/op
+                 measureMultiple·p0.50:   109314.048 us/op
+                 measureMultiple·p0.90:   109314.048 us/op
+                 measureMultiple·p0.95:   109445.120 us/op
+                 measureMultiple·p0.99:   109576.192 us/op
+                 measureMultiple·p0.999:  109576.192 us/op
+                 measureMultiple·p0.9999: 109576.192 us/op
+                 measureMultiple·p1.00:   109576.192 us/op
+
+Iteration   5: 109267.033 ±(99.9%) 79.922 us/op
+                 measureMultiple·p0.00:   107347.968 us/op
+                 measureMultiple·p0.50:   109314.048 us/op
+                 measureMultiple·p0.90:   109405.798 us/op
+                 measureMultiple·p0.95:   109445.120 us/op
+                 measureMultiple·p0.99:   109707.264 us/op
+                 measureMultiple·p0.999:  109707.264 us/op
+                 measureMultiple·p0.9999: 109707.264 us/op
+                 measureMultiple·p1.00:   109707.264 us/op
+
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureMultiple":
+  N = 460
+  mean = 109267.033 ±(99.9%) 32.477 us/op
+
+  Histogram, us/op:
+    [107000.000, 107250.000) = 0 
+    [107250.000, 107500.000) = 3 
+    [107500.000, 107750.000) = 1 
+    [107750.000, 108000.000) = 0 
+    [108000.000, 108250.000) = 1 
+    [108250.000, 108500.000) = 0 
+    [108500.000, 108750.000) = 0 
+    [108750.000, 109000.000) = 10 
+    [109000.000, 109250.000) = 117 
+    [109250.000, 109500.000) = 316 
+    [109500.000, 109750.000) = 12 
+
+  Percentiles, us/op:
+      p(0.0000) = 107347.968 us/op
+     p(50.0000) = 109314.048 us/op
+     p(90.0000) = 109445.120 us/op
+     p(95.0000) = 109445.120 us/op
+     p(99.0000) = 109576.192 us/op
+     p(99.9000) = 109707.264 us/op
+     p(99.9900) = 109707.264 us/op
+     p(99.9990) = 109707.264 us/op
+     p(99.9999) = 109707.264 us/op
+    p(100.0000) = 109707.264 us/op
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureSamples
+
+# Run progress: 88.89% complete, ETA 00:01:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 109128.838 ±(99.9%) 532.849 us/op
+# Warmup Iteration   2: 109148.783 ±(99.9%) 454.844 us/op
+# Warmup Iteration   3: 109242.813 ±(99.9%) 113.916 us/op
+# Warmup Iteration   4: 109262.759 ±(99.9%) 101.942 us/op
+# Warmup Iteration   5: 109268.458 ±(99.9%) 91.510 us/op
+Iteration   1: 109269.882 ±(99.9%) 47.868 us/op
+                 measureSamples·p0.00:   108658.688 us/op
+                 measureSamples·p0.50:   109314.048 us/op
+                 measureSamples·p0.90:   109314.048 us/op
+                 measureSamples·p0.95:   109490.995 us/op
+                 measureSamples·p0.99:   109707.264 us/op
+                 measureSamples·p0.999:  109707.264 us/op
+                 measureSamples·p0.9999: 109707.264 us/op
+                 measureSamples·p1.00:   109707.264 us/op
+
+Iteration   2: 109239.964 ±(99.9%) 200.892 us/op
+                 measureSamples·p0.00:   103940.096 us/op
+                 measureSamples·p0.50:   109314.048 us/op
+                 measureSamples·p0.90:   109314.048 us/op
+                 measureSamples·p0.95:   109445.120 us/op
+                 measureSamples·p0.99:   109707.264 us/op
+                 measureSamples·p0.999:  109707.264 us/op
+                 measureSamples·p0.9999: 109707.264 us/op
+                 measureSamples·p1.00:   109707.264 us/op
+
+Iteration   3: 109277.006 ±(99.9%) 47.394 us/op
+                 measureSamples·p0.00:   108265.472 us/op
+                 measureSamples·p0.50:   109314.048 us/op
+                 measureSamples·p0.90:   109314.048 us/op
+                 measureSamples·p0.95:   109359.923 us/op
+                 measureSamples·p0.99:   109576.192 us/op
+                 measureSamples·p0.999:  109576.192 us/op
+                 measureSamples·p0.9999: 109576.192 us/op
+                 measureSamples·p1.00:   109576.192 us/op
+
+Iteration   4: 109268.458 ±(99.9%) 81.351 us/op
+                 measureSamples·p0.00:   107216.896 us/op
+                 measureSamples·p0.50:   109314.048 us/op
+                 measureSamples·p0.90:   109314.048 us/op
+                 measureSamples·p0.95:   109314.048 us/op
+                 measureSamples·p0.99:   109576.192 us/op
+                 measureSamples·p0.999:  109576.192 us/op
+                 measureSamples·p0.9999: 109576.192 us/op
+                 measureSamples·p1.00:   109576.192 us/op
+
+Iteration   5: 109281.280 ±(99.9%) 72.787 us/op
+                 measureSamples·p0.00:   107479.040 us/op
+                 measureSamples·p0.50:   109314.048 us/op
+                 measureSamples·p0.90:   109314.048 us/op
+                 measureSamples·p0.95:   109445.120 us/op
+                 measureSamples·p0.99:   109707.264 us/op
+                 measureSamples·p0.999:  109707.264 us/op
+                 measureSamples·p0.9999: 109707.264 us/op
+                 measureSamples·p1.00:   109707.264 us/op
+
+
+
+Result "sample.JMHSample_02_BenchmarkModes.measureSamples":
+  N = 460
+  mean = 109267.318 ±(99.9%) 46.276 us/op
+
+  Histogram, us/op:
+    [103000.000, 103500.000) = 0 
+    [103500.000, 104000.000) = 1 
+    [104000.000, 104500.000) = 0 
+    [104500.000, 105000.000) = 0 
+    [105000.000, 105500.000) = 0 
+    [105500.000, 106000.000) = 0 
+    [106000.000, 106500.000) = 0 
+    [106500.000, 107000.000) = 0 
+    [107000.000, 107500.000) = 2 
+    [107500.000, 108000.000) = 0 
+    [108000.000, 108500.000) = 1 
+    [108500.000, 109000.000) = 6 
+    [109000.000, 109500.000) = 441 
+
+  Percentiles, us/op:
+      p(0.0000) = 103940.096 us/op
+     p(50.0000) = 109314.048 us/op
+     p(90.0000) = 109314.048 us/op
+     p(95.0000) = 109445.120 us/op
+     p(99.0000) = 109627.310 us/op
+     p(99.9000) = 109707.264 us/op
+     p(99.9900) = 109707.264 us/op
+     p(99.9990) = 109707.264 us/op
+     p(99.9999) = 109707.264 us/op
+    p(100.0000) = 109707.264 us/op
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureAll
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 108494.900 us/op
+
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureMultiple
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 99529.900 us/op
+
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=52580:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: sample.JMHSample_02_BenchmarkModes.measureSingleShot
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 95969.600 us/op
+
+
+
+# Run complete. Total time: 00:15:14
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                              Mode  Cnt       Score     Error   Units
+JMHSample_02_BenchmarkModes.measureAll                                thrpt    5      ≈ 10⁻⁵            ops/us
+JMHSample_02_BenchmarkModes.measureMultiple                           thrpt    5      ≈ 10⁻⁵            ops/us
+JMHSample_02_BenchmarkModes.measureThroughput                         thrpt    5       9.303 ±   0.905   ops/s
+JMHSample_02_BenchmarkModes.measureAll                                 avgt    5  109286.617 ± 420.780   us/op
+JMHSample_02_BenchmarkModes.measureAvgTime                             avgt    5  109318.079 ± 109.226   us/op
+JMHSample_02_BenchmarkModes.measureMultiple                            avgt    5  109331.051 ±  48.849   us/op
+JMHSample_02_BenchmarkModes.measureAll                               sample  460  109256.205 ±  52.729   us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p0.00              sample       104071.168             us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p0.50              sample       109314.048             us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p0.90              sample       109445.120             us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p0.95              sample       109569.638             us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p0.99              sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p0.999             sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p0.9999            sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureAll:measureAll·p1.00              sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureMultiple                          sample  460  109267.033 ±  32.477   us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p0.00    sample       107347.968             us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p0.50    sample       109314.048             us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p0.90    sample       109445.120             us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p0.95    sample       109445.120             us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p0.99    sample       109576.192             us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p0.999   sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p0.9999  sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureMultiple:measureMultiple·p1.00    sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureSamples                           sample  460  109267.318 ±  46.276   us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p0.00      sample       103940.096             us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p0.50      sample       109314.048             us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p0.90      sample       109314.048             us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p0.95      sample       109445.120             us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p0.99      sample       109627.310             us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p0.999     sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p0.9999    sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureSamples:measureSamples·p1.00      sample       109707.264             us/op
+JMHSample_02_BenchmarkModes.measureAll                                   ss       108494.900             us/op
+JMHSample_02_BenchmarkModes.measureMultiple                              ss        99529.900             us/op
+JMHSample_02_BenchmarkModes.measureSingleShot                            ss        95969.600             us/op
+
+Process finished with exit code 0

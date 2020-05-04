@@ -1,0 +1,108 @@
+E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\bin\java.exe "-javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56411:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\charsets.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\access-bridge-64.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\cldrdata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\dnsns.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\jaccess.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\localedata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\nashorn.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunec.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunjce_provider.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunmscapi.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunpkcs11.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\zipfs.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jce.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jsse.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\management-agent.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\resources.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\rt.jar;E:\WWY\workplace\test\jmh-test\target\classes;E:\WWY\repository\org\openjdk\jmh\jmh-generator-annprocess\1.23\jmh-generator-annprocess-1.23.jar;E:\WWY\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;E:\WWY\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;E:\WWY\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar sample.JMHSample_08_DeadCode
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56411:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_08_DeadCode.baseline
+
+# Run progress: 0.00% complete, ETA 00:05:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.237 ns/op
+# Warmup Iteration   2: 0.250 ns/op
+# Warmup Iteration   3: 0.246 ns/op
+# Warmup Iteration   4: 0.236 ns/op
+# Warmup Iteration   5: 0.237 ns/op
+Iteration   1: 0.238 ns/op
+Iteration   2: 0.237 ns/op
+Iteration   3: 0.239 ns/op
+Iteration   4: 0.239 ns/op
+Iteration   5: 0.241 ns/op
+
+
+Result "sample.JMHSample_08_DeadCode.baseline":
+  0.239 ±(99.9%) 0.007 ns/op [Average]
+  (min, avg, max) = (0.237, 0.239, 0.241), stdev = 0.002
+  CI (99.9%): [0.232, 0.246] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56411:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_08_DeadCode.measureRight
+
+# Run progress: 33.33% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 17.358 ns/op
+# Warmup Iteration   2: 17.293 ns/op
+# Warmup Iteration   3: 17.363 ns/op
+# Warmup Iteration   4: 17.259 ns/op
+# Warmup Iteration   5: 17.298 ns/op
+Iteration   1: 17.242 ns/op
+Iteration   2: 17.360 ns/op
+Iteration   3: 17.198 ns/op
+Iteration   4: 17.221 ns/op
+Iteration   5: 17.414 ns/op
+
+
+Result "sample.JMHSample_08_DeadCode.measureRight":
+  17.287 ±(99.9%) 0.365 ns/op [Average]
+  (min, avg, max) = (17.198, 17.287, 17.414), stdev = 0.095
+  CI (99.9%): [16.922, 17.651] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56411:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_08_DeadCode.measureWrong
+
+# Run progress: 66.67% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.237 ns/op
+# Warmup Iteration   2: 0.238 ns/op
+# Warmup Iteration   3: 0.237 ns/op
+# Warmup Iteration   4: 0.240 ns/op
+# Warmup Iteration   5: 0.239 ns/op
+Iteration   1: 0.239 ns/op
+Iteration   2: 0.234 ns/op
+Iteration   3: 0.237 ns/op
+Iteration   4: 0.235 ns/op
+Iteration   5: 0.236 ns/op
+
+
+Result "sample.JMHSample_08_DeadCode.measureWrong":
+  0.236 ±(99.9%) 0.007 ns/op [Average]
+  (min, avg, max) = (0.234, 0.236, 0.239), stdev = 0.002
+  CI (99.9%): [0.229, 0.244] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:05:02
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                           Mode  Cnt   Score   Error  Units
+JMHSample_08_DeadCode.baseline      avgt    5   0.239 ± 0.007  ns/op
+JMHSample_08_DeadCode.measureRight  avgt    5  17.287 ± 0.365  ns/op
+JMHSample_08_DeadCode.measureWrong  avgt    5   0.236 ± 0.007  ns/op
+
+Process finished with exit code 0

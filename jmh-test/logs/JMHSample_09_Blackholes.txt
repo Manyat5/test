@@ -1,0 +1,140 @@
+E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\bin\java.exe "-javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56512:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\charsets.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\access-bridge-64.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\cldrdata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\dnsns.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\jaccess.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\localedata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\nashorn.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunec.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunjce_provider.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunmscapi.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunpkcs11.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\zipfs.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jce.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jsse.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\management-agent.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\resources.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\rt.jar;E:\WWY\workplace\test\jmh-test\target\classes;E:\WWY\repository\org\openjdk\jmh\jmh-generator-annprocess\1.23\jmh-generator-annprocess-1.23.jar;E:\WWY\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;E:\WWY\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;E:\WWY\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar sample.JMHSample_09_Blackholes
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56512:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_09_Blackholes.baseline
+
+# Run progress: 0.00% complete, ETA 00:06:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 17.078 ns/op
+# Warmup Iteration   2: 16.957 ns/op
+# Warmup Iteration   3: 17.091 ns/op
+# Warmup Iteration   4: 17.111 ns/op
+# Warmup Iteration   5: 17.095 ns/op
+Iteration   1: 17.090 ns/op
+Iteration   2: 17.109 ns/op
+Iteration   3: 17.096 ns/op
+Iteration   4: 17.087 ns/op
+Iteration   5: 17.078 ns/op
+
+
+Result "sample.JMHSample_09_Blackholes.baseline":
+  17.092 ±(99.9%) 0.043 ns/op [Average]
+  (min, avg, max) = (17.078, 17.092, 17.109), stdev = 0.011
+  CI (99.9%): [17.049, 17.135] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56512:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_09_Blackholes.measureRight_1
+
+# Run progress: 25.00% complete, ETA 00:05:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 31.696 ns/op
+# Warmup Iteration   2: 31.600 ns/op
+# Warmup Iteration   3: 31.669 ns/op
+# Warmup Iteration   4: 31.633 ns/op
+# Warmup Iteration   5: 31.619 ns/op
+Iteration   1: 31.627 ns/op
+Iteration   2: 31.621 ns/op
+Iteration   3: 31.625 ns/op
+Iteration   4: 31.671 ns/op
+Iteration   5: 31.637 ns/op
+
+
+Result "sample.JMHSample_09_Blackholes.measureRight_1":
+  31.636 ±(99.9%) 0.078 ns/op [Average]
+  (min, avg, max) = (31.621, 31.636, 31.671), stdev = 0.020
+  CI (99.9%): [31.558, 31.714] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56512:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_09_Blackholes.measureRight_2
+
+# Run progress: 50.00% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 33.392 ns/op
+# Warmup Iteration   2: 33.937 ns/op
+# Warmup Iteration   3: 34.596 ns/op
+# Warmup Iteration   4: 34.277 ns/op
+# Warmup Iteration   5: 34.182 ns/op
+Iteration   1: 33.967 ns/op
+Iteration   2: 34.045 ns/op
+Iteration   3: 33.867 ns/op
+Iteration   4: 33.861 ns/op
+Iteration   5: 34.104 ns/op
+
+
+Result "sample.JMHSample_09_Blackholes.measureRight_2":
+  33.969 ±(99.9%) 0.414 ns/op [Average]
+  (min, avg, max) = (33.861, 33.969, 34.104), stdev = 0.107
+  CI (99.9%): [33.555, 34.383] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=56512:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_09_Blackholes.measureWrong
+
+# Run progress: 75.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 17.056 ns/op
+# Warmup Iteration   2: 16.985 ns/op
+# Warmup Iteration   3: 17.132 ns/op
+# Warmup Iteration   4: 17.250 ns/op
+# Warmup Iteration   5: 17.164 ns/op
+Iteration   1: 17.217 ns/op
+Iteration   2: 17.244 ns/op
+Iteration   3: 17.099 ns/op
+Iteration   4: 17.070 ns/op
+Iteration   5: 17.173 ns/op
+
+
+Result "sample.JMHSample_09_Blackholes.measureWrong":
+  17.161 ±(99.9%) 0.287 ns/op [Average]
+  (min, avg, max) = (17.070, 17.161, 17.244), stdev = 0.075
+  CI (99.9%): [16.873, 17.448] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:06:43
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                               Mode  Cnt   Score   Error  Units
+JMHSample_09_Blackholes.baseline        avgt    5  17.092 ± 0.043  ns/op
+JMHSample_09_Blackholes.measureRight_1  avgt    5  31.636 ± 0.078  ns/op
+JMHSample_09_Blackholes.measureRight_2  avgt    5  33.969 ± 0.414  ns/op
+JMHSample_09_Blackholes.measureWrong    avgt    5  17.161 ± 0.287  ns/op
+
+Process finished with exit code 0

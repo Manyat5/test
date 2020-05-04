@@ -1,0 +1,225 @@
+E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\bin\java.exe "-javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57345:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\charsets.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\access-bridge-64.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\cldrdata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\dnsns.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\jaccess.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\localedata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\nashorn.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunec.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunjce_provider.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunmscapi.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunpkcs11.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\zipfs.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jce.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jsse.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\management-agent.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\resources.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\rt.jar;E:\WWY\workplace\test\jmh-test\target\classes;E:\WWY\repository\org\openjdk\jmh\jmh-generator-annprocess\1.23\jmh-generator-annprocess-1.23.jar;E:\WWY\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;E:\WWY\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;E:\WWY\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar sample.JMHSample_13_RunToRun
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57345:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_13_RunToRun.baseline
+
+# Run progress: 0.00% complete, ETA 00:13:00
+# Fork: 1 of 1
+Iteration   1: 749.644 ms/op
+Iteration   2: 749.076 ms/op
+Iteration   3: 750.049 ms/op
+
+
+Result "sample.JMHSample_13_RunToRun.baseline":
+  749.589 ±(99.9%) 8.919 ms/op [Average]
+  (min, avg, max) = (749.076, 749.589, 750.049), stdev = 0.489
+  CI (99.9%): [740.671, 758.508] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57345:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_13_RunToRun.fork_1
+
+# Run progress: 3.85% complete, ETA 00:13:27
+# Fork: 1 of 5
+Iteration   1: 747.666 ms/op
+Iteration   2: 747.667 ms/op
+Iteration   3: 747.722 ms/op
+
+# Run progress: 7.69% complete, ETA 00:12:53
+# Fork: 2 of 5
+Iteration   1: 923.750 ms/op
+Iteration   2: 923.640 ms/op
+Iteration   3: 923.701 ms/op
+
+# Run progress: 11.54% complete, ETA 00:12:13
+# Fork: 3 of 5
+Iteration   1: 645.677 ms/op
+Iteration   2: 645.459 ms/op
+Iteration   3: 645.598 ms/op
+
+# Run progress: 15.38% complete, ETA 00:11:40
+# Fork: 4 of 5
+Iteration   1: 193.570 ms/op
+Iteration   2: 193.550 ms/op
+Iteration   3: 193.560 ms/op
+
+# Run progress: 19.23% complete, ETA 00:11:05
+# Fork: 5 of 5
+Iteration   1: 620.165 ms/op
+Iteration   2: 624.466 ms/op
+Iteration   3: 616.077 ms/op
+
+
+Result "sample.JMHSample_13_RunToRun.fork_1":
+  626.151 ±(99.9%) 266.897 ms/op [Average]
+  (min, avg, max) = (193.550, 626.151, 923.750), stdev = 249.655
+  CI (99.9%): [359.255, 893.048] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57345:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_13_RunToRun.fork_2
+
+# Run progress: 23.08% complete, ETA 00:10:35
+# Fork: 1 of 20
+Iteration   1: 72.674 ms/op
+Iteration   2: 72.606 ms/op
+Iteration   3: 72.648 ms/op
+
+# Run progress: 26.92% complete, ETA 00:10:01
+# Fork: 2 of 20
+Iteration   1: 645.533 ms/op
+Iteration   2: 645.578 ms/op
+Iteration   3: 645.616 ms/op
+
+# Run progress: 30.77% complete, ETA 00:09:29
+# Fork: 3 of 20
+Iteration   1: 8.588 ms/op
+Iteration   2: 8.568 ms/op
+Iteration   3: 8.558 ms/op
+
+# Run progress: 34.62% complete, ETA 00:08:56
+# Fork: 4 of 20
+Iteration   1: 166.590 ms/op
+Iteration   2: 166.606 ms/op
+Iteration   3: 166.706 ms/op
+
+# Run progress: 38.46% complete, ETA 00:08:24
+# Fork: 5 of 20
+Iteration   1: 639.978 ms/op
+Iteration   2: 640.273 ms/op
+Iteration   3: 640.465 ms/op
+
+# Run progress: 42.31% complete, ETA 00:07:52
+# Fork: 6 of 20
+Iteration   1: 624.459 ms/op
+Iteration   2: 624.557 ms/op
+Iteration   3: 624.663 ms/op
+
+# Run progress: 46.15% complete, ETA 00:07:22
+# Fork: 7 of 20
+Iteration   1: 446.604 ms/op
+Iteration   2: 446.553 ms/op
+Iteration   3: 446.559 ms/op
+
+# Run progress: 50.00% complete, ETA 00:06:50
+# Fork: 8 of 20
+Iteration   1: 925.567 ms/op
+Iteration   2: 925.697 ms/op
+Iteration   3: 925.685 ms/op
+
+# Run progress: 53.85% complete, ETA 00:06:18
+# Fork: 9 of 20
+Iteration   1: 387.571 ms/op
+Iteration   2: 387.606 ms/op
+Iteration   3: 387.644 ms/op
+
+# Run progress: 57.69% complete, ETA 00:05:46
+# Fork: 10 of 20
+Iteration   1: 719.528 ms/op
+Iteration   2: 719.684 ms/op
+Iteration   3: 719.561 ms/op
+
+# Run progress: 61.54% complete, ETA 00:05:15
+# Fork: 11 of 20
+Iteration   1: 206.498 ms/op
+Iteration   2: 206.644 ms/op
+Iteration   3: 206.593 ms/op
+
+# Run progress: 65.38% complete, ETA 00:04:43
+# Fork: 12 of 20
+Iteration   1: 928.715 ms/op
+Iteration   2: 928.651 ms/op
+Iteration   3: 928.693 ms/op
+
+# Run progress: 69.23% complete, ETA 00:04:11
+# Fork: 13 of 20
+Iteration   1: 374.631 ms/op
+Iteration   2: 374.552 ms/op
+Iteration   3: 374.588 ms/op
+
+# Run progress: 73.08% complete, ETA 00:03:40
+# Fork: 14 of 20
+Iteration   1: 631.550 ms/op
+Iteration   2: 631.551 ms/op
+Iteration   3: 631.648 ms/op
+
+# Run progress: 76.92% complete, ETA 00:03:08
+# Fork: 15 of 20
+Iteration   1: 265.956 ms/op
+Iteration   2: 265.810 ms/op
+Iteration   3: 265.638 ms/op
+
+# Run progress: 80.77% complete, ETA 00:02:37
+# Fork: 16 of 20
+Iteration   1: 756.725 ms/op
+Iteration   2: 756.627 ms/op
+Iteration   3: 756.565 ms/op
+
+# Run progress: 84.62% complete, ETA 00:02:05
+# Fork: 17 of 20
+Iteration   1: 535.695 ms/op
+Iteration   2: 535.513 ms/op
+Iteration   3: 535.614 ms/op
+
+# Run progress: 88.46% complete, ETA 00:01:34
+# Fork: 18 of 20
+Iteration   1: 786.540 ms/op
+Iteration   2: 786.585 ms/op
+Iteration   3: 786.537 ms/op
+
+# Run progress: 92.31% complete, ETA 00:01:02
+# Fork: 19 of 20
+Iteration   1: 714.704 ms/op
+Iteration   2: 714.678 ms/op
+Iteration   3: 714.574 ms/op
+
+# Run progress: 96.15% complete, ETA 00:00:31
+# Fork: 20 of 20
+Iteration   1: 102.596 ms/op
+Iteration   2: 102.578 ms/op
+Iteration   3: 102.661 ms/op
+
+
+Result "sample.JMHSample_13_RunToRun.fork_2":
+  497.047 ±(99.9%) 125.410 ms/op [Average]
+  (min, avg, max) = (8.558, 497.047, 928.715), stdev = 280.497
+  CI (99.9%): [371.637, 622.457] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:13:36
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                       Mode  Cnt    Score     Error  Units
+JMHSample_13_RunToRun.baseline  avgt    3  749.589 ±   8.919  ms/op
+JMHSample_13_RunToRun.fork_1    avgt   15  626.151 ± 266.897  ms/op
+JMHSample_13_RunToRun.fork_2    avgt   60  497.047 ± 125.410  ms/op
+
+Process finished with exit code 0

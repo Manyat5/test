@@ -1,0 +1,236 @@
+E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\bin\java.exe "-javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\charsets.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\access-bridge-64.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\cldrdata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\dnsns.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\jaccess.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\localedata.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\nashorn.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunec.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunjce_provider.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunmscapi.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\sunpkcs11.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\ext\zipfs.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jce.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\jsse.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\management-agent.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\resources.jar;E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\lib\rt.jar;E:\WWY\workplace\test\jmh-test\target\classes;E:\WWY\repository\org\openjdk\jmh\jmh-generator-annprocess\1.23\jmh-generator-annprocess-1.23.jar;E:\WWY\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;E:\WWY\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;E:\WWY\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar sample.JMHSample_11_Loops
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_11_Loops.measureRight
+
+# Run progress: 0.00% complete, ETA 00:11:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.043 ns/op
+# Warmup Iteration   2: 2.148 ns/op
+# Warmup Iteration   3: 2.582 ns/op
+# Warmup Iteration   4: 2.582 ns/op
+# Warmup Iteration   5: 1.908 ns/op
+Iteration   1: 3.234 ns/op
+Iteration   2: 1.991 ns/op
+Iteration   3: 2.038 ns/op
+Iteration   4: 2.359 ns/op
+Iteration   5: 3.107 ns/op
+
+
+Result "sample.JMHSample_11_Loops.measureRight":
+  2.546 ±(99.9%) 2.269 ns/op [Average]
+  (min, avg, max) = (1.991, 2.546, 3.234), stdev = 0.589
+  CI (99.9%): [0.277, 4.815] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_11_Loops.measureWrong_1
+
+# Run progress: 14.29% complete, ETA 00:10:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.378 ns/op
+# Warmup Iteration   2: 2.583 ns/op
+# Warmup Iteration   3: 2.039 ns/op
+# Warmup Iteration   4: 2.188 ns/op
+# Warmup Iteration   5: 2.187 ns/op
+Iteration   1: 2.562 ns/op
+Iteration   2: 2.181 ns/op
+Iteration   3: 2.393 ns/op
+Iteration   4: 2.157 ns/op
+Iteration   5: 3.158 ns/op
+
+
+Result "sample.JMHSample_11_Loops.measureWrong_1":
+  2.490 ±(99.9%) 1.573 ns/op [Average]
+  (min, avg, max) = (2.157, 2.490, 3.158), stdev = 0.409
+  CI (99.9%): [0.917, 4.063] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_11_Loops.measureWrong_10
+
+# Run progress: 28.57% complete, ETA 00:08:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.274 ns/op
+# Warmup Iteration   2: 0.215 ns/op
+# Warmup Iteration   3: 0.263 ns/op
+# Warmup Iteration   4: 0.266 ns/op
+# Warmup Iteration   5: 0.248 ns/op
+Iteration   1: 0.283 ns/op
+Iteration   2: 0.297 ns/op
+Iteration   3: 0.246 ns/op
+Iteration   4: 0.273 ns/op
+Iteration   5: 0.257 ns/op
+
+
+Result "sample.JMHSample_11_Loops.measureWrong_10":
+  0.271 ±(99.9%) 0.078 ns/op [Average]
+  (min, avg, max) = (0.246, 0.271, 0.297), stdev = 0.020
+  CI (99.9%): [0.194, 0.349] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_11_Loops.measureWrong_100
+
+# Run progress: 42.86% complete, ETA 00:06:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.032 ns/op
+# Warmup Iteration   2: 0.032 ns/op
+# Warmup Iteration   3: 0.028 ns/op
+# Warmup Iteration   4: 0.035 ns/op
+# Warmup Iteration   5: 0.032 ns/op
+Iteration   1: 0.024 ns/op
+Iteration   2: 0.024 ns/op
+Iteration   3: 0.023 ns/op
+Iteration   4: 0.033 ns/op
+Iteration   5: 0.033 ns/op
+
+
+Result "sample.JMHSample_11_Loops.measureWrong_100":
+  0.027 ±(99.9%) 0.019 ns/op [Average]
+  (min, avg, max) = (0.023, 0.027, 0.033), stdev = 0.005
+  CI (99.9%): [0.008, 0.047] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_11_Loops.measureWrong_1000
+
+# Run progress: 57.14% complete, ETA 00:05:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.021 ns/op
+# Warmup Iteration   2: 0.021 ns/op
+# Warmup Iteration   3: 0.020 ns/op
+# Warmup Iteration   4: 0.020 ns/op
+# Warmup Iteration   5: 0.020 ns/op
+Iteration   1: 0.020 ns/op
+Iteration   2: 0.020 ns/op
+Iteration   3: 0.020 ns/op
+Iteration   4: 0.020 ns/op
+Iteration   5: 0.020 ns/op
+
+
+Result "sample.JMHSample_11_Loops.measureWrong_1000":
+  0.020 ±(99.9%) 0.001 ns/op [Average]
+  (min, avg, max) = (0.020, 0.020, 0.020), stdev = 0.001
+  CI (99.9%): [0.020, 0.021] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_11_Loops.measureWrong_10000
+
+# Run progress: 71.43% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.017 ns/op
+# Warmup Iteration   2: 0.016 ns/op
+# Warmup Iteration   3: 0.016 ns/op
+# Warmup Iteration   4: 0.016 ns/op
+# Warmup Iteration   5: 0.017 ns/op
+Iteration   1: 0.017 ns/op
+Iteration   2: 0.017 ns/op
+Iteration   3: 0.016 ns/op
+Iteration   4: 0.016 ns/op
+Iteration   5: 0.016 ns/op
+
+
+Result "sample.JMHSample_11_Loops.measureWrong_10000":
+  0.016 ±(99.9%) 0.001 ns/op [Average]
+  (min, avg, max) = (0.016, 0.016, 0.017), stdev = 0.001
+  CI (99.9%): [0.016, 0.017] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_202, OpenJDK 64-Bit Server VM, 25.202-b08
+# VM invoker: E:\WWY\resources\java_jdk\soft\jdk-8.0.202.08\jre\bin\java.exe
+# VM options: -javaagent:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\lib\idea_rt.jar=57067:E:\WWY\ide\JetBrains\IntelliJ IDEA 2018.3.4\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sample.JMHSample_11_Loops.measureWrong_100000
+
+# Run progress: 85.71% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.015 ns/op
+# Warmup Iteration   2: 0.015 ns/op
+# Warmup Iteration   3: 0.015 ns/op
+# Warmup Iteration   4: 0.015 ns/op
+# Warmup Iteration   5: 0.015 ns/op
+Iteration   1: 0.015 ns/op
+Iteration   2: 0.015 ns/op
+Iteration   3: 0.015 ns/op
+Iteration   4: 0.015 ns/op
+Iteration   5: 0.015 ns/op
+
+
+Result "sample.JMHSample_11_Loops.measureWrong_100000":
+  0.015 ±(99.9%) 0.001 ns/op [Average]
+  (min, avg, max) = (0.015, 0.015, 0.015), stdev = 0.001
+  CI (99.9%): [0.015, 0.015] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:11:45
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                               Mode  Cnt  Score    Error  Units
+JMHSample_11_Loops.measureRight         avgt    5  2.546 ±  2.269  ns/op
+JMHSample_11_Loops.measureWrong_1       avgt    5  2.490 ±  1.573  ns/op
+JMHSample_11_Loops.measureWrong_10      avgt    5  0.271 ±  0.078  ns/op
+JMHSample_11_Loops.measureWrong_100     avgt    5  0.027 ±  0.019  ns/op
+JMHSample_11_Loops.measureWrong_1000    avgt    5  0.020 ±  0.001  ns/op
+JMHSample_11_Loops.measureWrong_10000   avgt    5  0.016 ±  0.001  ns/op
+JMHSample_11_Loops.measureWrong_100000  avgt    5  0.015 ±  0.001  ns/op
+
+Process finished with exit code 0
